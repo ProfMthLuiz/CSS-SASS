@@ -1,16 +1,16 @@
 <strong>dicas &amp; exemplos de css/sass</strong>
 
 # MENU CSS :mag:
-- :pushpin: [Definição](#definição-css) <br>
-- :pushpin: [Sintaxe](#sintaxe-css) <br>
-- :pushpin: [Seletores](#seletores-css) <br>
-  - :pushpin: [simples](#simples) <br>
-  - :pushpin: [combinador](#combinador) <br>
-  - :pushpin: [pseudoclasse](#pseudoclasse) <br>
-  - :pushpin: [pseudoelementos](#pseudoelementos) <br>
-  - :pushpin: [atributos](#atributos) <br>
-- :pushpin: [CSS Reset](#css-reset)<br>
-- :pushpin: [Curiosidade(s)](#curiosidades)
+- :pushpin: [Definição](#bookmark-definição-css) <br>
+- :pushpin: [Sintaxe](#bookmark-sintaxe-css) <br>
+- :pushpin: [Seletores](#bookmark-seletores-css) <br>
+  - :pushpin: [simples](#bookmark-simples) <br>
+  - :pushpin: [combinador](#bookmark-combinador) <br>
+  - :pushpin: [pseudoclasse](#bookmark-pseudoclasse) <br>
+  - :pushpin: [pseudoelementos](#bookmark-pseudoelementos) <br>
+  - :pushpin: [atributos](#bookmark-atributos) <br>
+- :pushpin: [CSS Reset](#bookmark-css-reset)<br>
+- :pushpin: [Curiosidade(s)](#bookmark-curiosidades)
 
 <br>
 <br>
