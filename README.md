@@ -1,18 +1,22 @@
 <strong>dicas &amp; exemplos de css/sass</strong>
 
 # MENU :mag:
-- [Definição](#definição-css)
-- [Sintaxe](#sintaxe-css)
-- [Seletores](#seletores-css)
-  - [simples](#simples)
-  - [combinador](#combinador)
-  - [pseudoclasse](#pseudoclasse)
-  - [pseudoelementos](#pseudoelementos)
-  - [atributos](#atributos)
-- [CSS Reset](#css-reset)
-- [Curiosidade(s)](#curiosidades)
+- :pushpin: [Definição](#definição-css) <br>
+- :pushpin: [Sintaxe](#sintaxe-css) <br>
+- :pushpin: [Seletores](#seletores-css) <br>
+  - :pushpin: [simples](#simples) <br>
+  - :pushpin: [combinador](#combinador) <br>
+  - :pushpin: [pseudoclasse](#pseudoclasse) <br>
+  - :pushpin: [pseudoelementos](#pseudoelementos) <br>
+  - :pushpin: [atributos](#atributos) <br>
+- :pushpin: [CSS Reset](#css-reset)<br>
+- :pushpin: [Curiosidade(s)](#curiosidades)
 
-## Definição CSS
+<br>
+<br>
+<br>
+
+## :bookmark: Definição CSS
 
 <i>O Cascading Style Sheets ou Folhas de Estilo em Cascata(CSS) é uma linguagem de estilo utilizada para descrever a apresentação de um documento escrito em HTML ou XML (incluindo vários tipos de documentos XML como SVG ou XHTML). O CSS descreve como os elementos devem ser exibidos na tela, no papel ou em outras mídias.</i>
 
@@ -20,7 +24,7 @@
 <br>
 <br>
 
-## Sintaxe CSS
+## :bookmark: Sintaxe CSS
 
 ![Sintaxe CSS](https://www.w3schools.com/css/img_selector.gif)
 
@@ -47,7 +51,7 @@ center - é o valor da propriedade
 <br>
 <br>
 
-## SELETORES CSS
+## :bookmark: SELETORES CSS
 
 Os seletores são usados para selecionar/encontrar os elementos HTML que você deseja estilizar, podemos dividir os seletores em cinco categorias: simples, combinador, pseudoclasse, pseudoelementos e atributos.
 > Simples: selecione elementos com base no nome, id, classe <br>
@@ -56,7 +60,11 @@ Os seletores são usados para selecionar/encontrar os elementos HTML que você d
 > Pseudoelementos: selecione e estilizar uma parte de um elemento <br>
 > Atributos: selecione elementos com base em um atributo ou valor de atributo <br>
 
-### Simples
+<br>
+<br>
+<br>
+
+### :bookmark: Simples
 Seletores por Nome: Selecionam elementos com base em seus nomes. <br> 
 Seletores por ID: Selecionam elementos com base em seus IDs únicos. <br>
 Seletores por Classe: Selecionam elementos com base em suas classes. <br>
@@ -81,7 +89,11 @@ p{
 
 ```
 
-### Combinador
+<br>
+<br>
+<br>
+
+### :bookmark: Combinador
 Seletores de descendência (espaço), filho direto, irmão adjacente, irmão geral e agrupamento.
 
 Descendência:
@@ -167,7 +179,11 @@ HTML
 <h3>Título 3</h3>
 ```
 
-### Pseudoclasse
+<br>
+<br>
+<br>
+
+### :bookmark: Pseudoclasse
 
 As pseudoclasses em CSS são usadas para selecionar e estilizar elementos em estados específicos. Aqui estão alguns exemplos comuns de pseudoclasses: <br>
 
@@ -282,7 +298,11 @@ HTML
 </ul>
 ```
 
-### Pseudoelementos
+<br>
+<br>
+<br>
+
+### :bookmark: Pseudoelementos
 
 Pseudoelementos são usados para estilizar partes específicas de um elemento, sem a necessidade de adicionar marcação adicional ao HTML. Eles são representados por dois pontos (::) no início do seletor. Aqui estão alguns exemplos: <br>
 
@@ -347,7 +367,11 @@ HTML
 <input id="phone" type="tel" name="phone" minlength="9" maxlength="9" placeholder="Deve ter 9 dígitos" />
 ```
 
-### Atributos
+<br>
+<br>
+<br>
+
+### :bookmark: Atributos
 A seleção por atributos em CSS permite selecionar elementos com base em seus atributos e valores. Aqui estão alguns exemplos: <br>
 
 [attribute] - Seleciona elementos com um atributo específico.
@@ -431,7 +455,7 @@ HTML
 <br>
 <br>
 
-## CSS RESET
+## :bookmark: CSS RESET
 ```
 *{
 
@@ -463,7 +487,7 @@ Em resumo, esse código é frequentemente usado como um "reset" ou "normalizaç�
 <br>
 <br>
 
-### Curiosidade(s)
+### :bookmark: Curiosidade(s)
 Programar em HTML e CSS é uma expressão comumente utilizada por pessoas que estão iniciando no mundo do desenvolvimento web, mas tecnicamente não está correta. HTML (HyperText Markup Language) e CSS (Cascading Style Sheets) não são linguagens de programação, são linguagens de marcação e estilização, respectivamente.
 O termo "programar" geralmente se refere ao ato de escrever código em uma linguagem de programação, como JavaScript, Python, Java, C++, entre outras, que têm a capacidade de realizar operações lógicas e manipulação de dados. <br>
 Então, quando alguém diz que está "programando em HTML e CSS", isso pode ser impreciso. É mais apropriado dizer que estão "escrevendo HTML e CSS" para criar a estrutura e o estilo de uma página web. Se a pessoa estiver usando JavaScript para adicionar interatividade à página, aí sim ela estaria envolvida em programação.
