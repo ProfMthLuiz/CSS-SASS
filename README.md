@@ -1,22 +1,22 @@
 <strong>dicas &amp; exemplos de css/sass</strong>
 
 # MENU CSS :mag:
-- :pushpin: [Definição](#bookmark-definição-css) <br>
-- :pushpin: [Sintaxe](#bookmark-sintaxe-css) <br>
-- :pushpin: [Seletores](#bookmark-seletores-css) <br>
-  - :pushpin: [simples](#bookmark-simples) <br>
-  - :pushpin: [combinador](#bookmark-combinador) <br>
-  - :pushpin: [pseudoclasse](#bookmark-pseudoclasse) <br>
-  - :pushpin: [pseudoelementos](#bookmark-pseudoelementos) <br>
-  - :pushpin: [atributos](#bookmark-atributos) <br>
-- :pushpin: [CSS Reset](#bookmark-css-reset)<br>
-- :pushpin: [Curiosidade(s)](#bookmark-curiosidades)
+- :round_pushpin: [Definição](#anchor-definição-css) <br>
+- :round_pushpin: [Sintaxe](#anchor-sintaxe-css) <br>
+- :round_pushpin: [Seletores](#anchor-seletores-css) <br>
+  - :round_pushpin: [simples](#anchor-simples) <br>
+  - :round_pushpin: [combinador](#anchor-combinador) <br>
+  - :round_pushpin: [pseudoclasse](#anchor-pseudoclasse) <br>
+  - :round_pushpin: [pseudoelementos](#anchor-pseudoelementos) <br>
+  - :round_pushpin: [atributos](#anchor-atributos) <br>
+- :round_pushpin: [CSS Reset](#anchor-css-reset)<br>
+- :round_pushpin: [Curiosidade(s)](#anchor-curiosidades)
 
 <br>
 <br>
 <br>
 
-## :bookmark: Definição CSS
+## :anchor: Definição CSS
 
 <i>O Cascading Style Sheets ou Folhas de Estilo em Cascata(CSS) é uma linguagem de estilo utilizada para descrever a apresentação de um documento escrito em HTML ou XML (incluindo vários tipos de documentos XML como SVG ou XHTML). O CSS descreve como os elementos devem ser exibidos na tela, no papel ou em outras mídias.</i>
 
@@ -24,7 +24,7 @@
 <br>
 <br>
 
-## :bookmark: Sintaxe CSS
+## :anchor: Sintaxe CSS
 
 ![Sintaxe CSS](https://www.w3schools.com/css/img_selector.gif)
 
@@ -51,7 +51,7 @@ center - é o valor da propriedade
 <br>
 <br>
 
-## :bookmark: SELETORES CSS
+## :anchor: SELETORES CSS
 
 Os seletores são usados para selecionar/encontrar os elementos HTML que você deseja estilizar, podemos dividir os seletores em cinco categorias: simples, combinador, pseudoclasse, pseudoelementos e atributos.
 > Simples: selecione elementos com base no nome, id, classe <br>
@@ -64,7 +64,7 @@ Os seletores são usados para selecionar/encontrar os elementos HTML que você d
 <br>
 <br>
 
-### :bookmark: Simples
+### :anchor: Simples
 Seletores por Nome: Selecionam elementos com base em seus nomes. <br> 
 Seletores por ID: Selecionam elementos com base em seus IDs únicos. <br>
 Seletores por Classe: Selecionam elementos com base em suas classes. <br>
@@ -93,7 +93,7 @@ p{
 <br>
 <br>
 
-### :bookmark: Combinador
+### :anchor: Combinador
 Seletores de descendência (espaço), filho direto, irmão adjacente, irmão geral e agrupamento.
 
 Descendência:
@@ -183,7 +183,7 @@ HTML
 <br>
 <br>
 
-### :bookmark: Pseudoclasse
+### :anchor: Pseudoclasse
 
 As pseudoclasses em CSS são usadas para selecionar e estilizar elementos em estados específicos. Aqui estão alguns exemplos comuns de pseudoclasses: <br>
 
@@ -302,7 +302,7 @@ HTML
 <br>
 <br>
 
-### :bookmark: Pseudoelementos
+### :anchor: Pseudoelementos
 
 Pseudoelementos são usados para estilizar partes específicas de um elemento, sem a necessidade de adicionar marcação adicional ao HTML. Eles são representados por dois pontos (::) no início do seletor. Aqui estão alguns exemplos: <br>
 
@@ -371,7 +371,7 @@ HTML
 <br>
 <br>
 
-### :bookmark: Atributos
+### :anchor: Atributos
 A seleção por atributos em CSS permite selecionar elementos com base em seus atributos e valores. Aqui estão alguns exemplos: <br>
 
 [attribute] - Seleciona elementos com um atributo específico.
@@ -455,7 +455,7 @@ HTML
 <br>
 <br>
 
-## :bookmark: CSS RESET
+## :anchor: CSS RESET
 ```
 *{
 
@@ -488,18 +488,18 @@ Em resumo, esse código é frequentemente usado como um "reset" ou "normalizaç�
 <br>
 
 # MENU SASS :mag:
-- :pushpin: [Definição](#definição-css) <br>
-- :pushpin: [Sintaxe](#sintaxe-css) <br>
-- :pushpin: [Seletores](#seletores-css) <br>
-  - :pushpin: [simples](#simples) <br>
-  - :pushpin: [combinador](#combinador) <br>
-  - :pushpin: [pseudoclasse](#pseudoclasse) <br>
-  - :pushpin: [pseudoelementos](#pseudoelementos) <br>
-  - :pushpin: [atributos](#atributos) <br>
-- :pushpin: [CSS Reset](#css-reset)<br>
-- :pushpin: [Curiosidade(s)](#curiosidades)
+- :round_pushpin: [Definição](#definição-css) <br>
+- :round_pushpin: [Sintaxe](#sintaxe-css) <br>
+- :round_pushpin: [Seletores](#seletores-css) <br>
+  - :round_pushpin: [simples](#simples) <br>
+  - :round_pushpin: [combinador](#combinador) <br>
+  - :round_pushpin: [pseudoclasse](#pseudoclasse) <br>
+  - :round_pushpin: [pseudoelementos](#pseudoelementos) <br>
+  - :round_pushpin: [atributos](#atributos) <br>
+- :round_pushpin: [CSS Reset](#css-reset)<br>
+- :round_pushpin: [Curiosidade(s)](#anchor-curiosidades)
 
-### :bookmark: Curiosidade(s)
+### :anchor: Curiosidade(s)
 Programar em HTML e CSS é uma expressão comumente utilizada por pessoas que estão iniciando no mundo do desenvolvimento web, mas tecnicamente não está correta. HTML (HyperText Markup Language) e CSS (Cascading Style Sheets) não são linguagens de programação, são linguagens de marcação e estilização, respectivamente.
 O termo "programar" geralmente se refere ao ato de escrever código em uma linguagem de programação, como JavaScript, Python, Java, C++, entre outras, que têm a capacidade de realizar operações lógicas e manipulação de dados. <br>
 Então, quando alguém diz que está "programando em HTML e CSS", isso pode ser impreciso. É mais apropriado dizer que estão "escrevendo HTML e CSS" para criar a estrutura e o estilo de uma página web. Se a pessoa estiver usando JavaScript para adicionar interatividade à página, aí sim ela estaria envolvida em programação.
