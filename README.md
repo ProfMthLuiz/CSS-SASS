@@ -3,7 +3,7 @@
 #MENU 🏁
 - DEFINIÇÃO
 
-- [Ir para seção](#testing)
+- [Ir para seção](#CURIOSIDADE(S))
 
 
 
@@ -464,6 +464,6 @@ O termo "programar" geralmente se refere ao ato de escrever código em uma lingu
 Então, quando alguém diz que está "programando em HTML e CSS", isso pode ser impreciso. É mais apropriado dizer que estão "escrevendo HTML e CSS" para criar a estrutura e o estilo de uma página web. Se a pessoa estiver usando JavaScript para adicionar interatividade à página, aí sim ela estaria envolvida em programação.
 
 
-## <a name=“section”>Testing<a/>
+
 
 
