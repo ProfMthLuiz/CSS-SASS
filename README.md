@@ -1,5 +1,12 @@
 <strong>dicas &amp; exemplos de css/sass</strong>
 
+#MENU 🏁
+- DEFINIÇÃO
+
+- [Ir para seção](#section)
+
+
+
 ## Definição CSS
 
 <i>O Cascading Style Sheets ou Folhas de Estilo em Cascata(CSS) é uma linguagem de estilo utilizada para descrever a apresentação de um documento escrito em HTML ou XML (incluindo vários tipos de documentos XML como SVG ou XHTML). O CSS descreve como os elementos devem ser exibidos na tela, no papel ou em outras mídias.</i>
@@ -455,4 +462,8 @@ Em resumo, esse código é frequentemente usado como um "reset" ou "normalizaç�
 Programar em HTML e CSS é uma expressão comumente utilizada por pessoas que estão iniciando no mundo do desenvolvimento web, mas tecnicamente não está correta. HTML (HyperText Markup Language) e CSS (Cascading Style Sheets) não são linguagens de programação, são linguagens de marcação e estilização, respectivamente.
 O termo "programar" geralmente se refere ao ato de escrever código em uma linguagem de programação, como JavaScript, Python, Java, C++, entre outras, que têm a capacidade de realizar operações lógicas e manipulação de dados. <br>
 Então, quando alguém diz que está "programando em HTML e CSS", isso pode ser impreciso. É mais apropriado dizer que estão "escrevendo HTML e CSS" para criar a estrutura e o estilo de uma página web. Se a pessoa estiver usando JavaScript para adicionar interatividade à página, aí sim ela estaria envolvida em programação.
+
+
+## <a name=“section”><a/> Seção
+
 
