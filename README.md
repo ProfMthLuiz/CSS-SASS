@@ -1,12 +1,12 @@
 <strong>dicas &amp; exemplos de css/sass</strong>
 
-#MENU 🏁
+# MENU :mag:
 - [Definição](#definição-css)
 - [Sintaxe](#sintaxe-css)
 - [Seletores](#seletores-css)
   - [simples](#simples)
   - [combinador](#combinador)
-  - [pseudoclasses](#pseudoclasses)
+  - [pseudoclasse](#pseudoclasse)
   - [pseudoelementos](#pseudoelementos)
   - [atributos](#atributos)
 - [CSS Reset](#css-reset)
