@@ -157,11 +157,264 @@ HTML
 
 ### Pseudoclasse
 
-As pseudoclasses em CSS são usadas para selecionar e estilizar elementos em estados específicos. Aqui estão alguns exemplos comuns de pseudoclasses:
+As pseudoclasses em CSS são usadas para selecionar e estilizar elementos em estados específicos. Aqui estão alguns exemplos comuns de pseudoclasses: <br>
+
+<i>:hover</i>
+
+```
+CSS
+/* Estilos aplicados quando o mouse está sobre o elemento */
+h1:hover {
+    color: red;
+}
+
+HTML
+<h1>Titulo</h1>
+```
+
+<i>:active</i>
+```
+CSS
+/* Estilos aplicados quando o elemento está sendo ativado (clicado) */
+button:active {
+    background-color: #008000; /* verde */
+}
+
+HTML
+<button>BOTAO</button>
+```
+
+<i>:focus</i>
+```
+CSS
+/* Estilos aplicados quando o elemento está em foco */
+input:focus {
+    border: 2px solid blue;
+}
+
+HTML
+<input type="text" id="fname" name="fname">
+```
+
+<i>:first-child</i>
+```
+CSS
+/* Estilos aplicados ao primeiro filho de um elemento pai */
+li:first-child {
+    font-weight: bold;
+}
+
+HTML
+<ol>
+  <li>Coffee</li> <-- font-weight: bold;
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+```
+
+<i>:last-child</i>
+```
+CSS
+/* Estilos aplicados ao último filho de um elemento pai */
+p:last-child {
+    color: purple;
+}
+
+HTML
+<div>
+  <p>Um</p>
+  <p>Dois</p>
+  <p>Tres</p>
+  <p>Quatro</p> <-- cor do texto roxa
+</div>
+```
+
+<i>:nth-child(3)</i>
+```
+CSS
+/* Estilos aplicados ao terceiro filho de um elemento pai */
+div p:nth-child(2) {
+    color: red; /* texto em vermelho */
+}
+
+HTML
+<div>
+  <p>CHILD 1</p>
+  <p>CHILD 2</p>
+  <p>CHILD 3</p> <-- TEXTO EM VERMELHO
+</div>
+```
+
+<i>:nth-child(odd) e :nth-child(even)</i>
+```
+CSS
+/* Estilos aplicados a filhos ímpares de um elemento pai */
+ul li:nth-child(odd) {
+    background-color: yellow;
+}
+
+/* Estilos aplicados a filhos pares de um elemento pai */
+ul li:nth-child(even) {
+    background-color: red;
+}
+
+HTML
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+  <li>Sugar</li>
+  <li>Cup</li>
+  <li>Table</li>
+</ul>
+```
 
 ### Pseudoelementos
-### Atributos
 
+Pseudoelementos são usados para estilizar partes específicas de um elemento, sem a necessidade de adicionar marcação adicional ao HTML. Eles são representados por dois pontos (::) no início do seletor. Aqui estão alguns exemplos: <br>
+
+<i>::before</i>
+```
+CSS
+/* Adiciona conteúdo antes do conteúdo do elemento */
+p::before {
+    content: ">> ";
+}
+
+HTML
+<p>Titulo</p>
+```
+
+<i>::after</i>
+```
+CSS
+/* Adiciona conteúdo após o conteúdo do elemento */
+p::after {
+    content: " <<";
+}
+
+HTML
+<p>Titulo</p>
+```
+
+<i>::first-line</i>
+```
+CSS
+/* Seleciona a primeira linha dentro de um elemento */
+p::first-line {
+    font-weight: bold;
+}
+
+HTML
+<p>Titulo</p>
+```
+
+<i>::first-letter</i>
+```
+CSS
+/* Seleciona a primeira letra dentro de um elemento */
+p::first-letter {
+    font-size: 150%;
+}
+
+HTML
+<p>Titulo</p>
+```
+
+<i>::placeholder</i>
+```
+CSS
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+}
+
+HTML
+<input id="phone" type="tel" name="phone" minlength="9" maxlength="9" placeholder="Deve ter 9 dígitos" />
+```
+
+### Atributos
+A seleção por atributos em CSS permite selecionar elementos com base em seus atributos e valores. Aqui estão alguns exemplos: <br>
+
+[attribute] - Seleciona elementos com um atributo específico.
+
+```
+CSS
+input[type] {
+    border: 1px solid #ccc;
+}
+
+HTML
+<input type="text" id="name" name="name">
+```
+
+[attribute="value"] - Seleciona elementos com um atributo específico e um valor específico.
+
+```
+CSS
+a[href="https://www.google.com/"] {
+    color: pink;
+}
+
+HTML
+<a href="https://www.google.com/">Visite o Google</a>
+```
+
+[attribute^="value"] - Seleciona elementos com um atributo cujo valor começa com uma string específica.
+
+```
+CSS
+input[type^="text"] {
+    background-color: #f0f0f0;
+}
+
+HTML
+<form>
+ <label for="username">Nome de usuário:</label>
+ <input type="text" id="username" name="username"> <!-- Background-color: #f0f0f0; -->
+
+ <label for="password">Senha:</label>
+ <input type="password" id="password" name="password"> <!-- Não afetado -->
+
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="email"> <!-- Não afetado -->
+</form>
+```
+[attribute$="value"] - Seleciona elementos com um atributo cujo valor termina com uma string específica.
+
+```
+CSS
+a[href$=".pdf"] {
+    color: red;
+}
+
+HTML
+<p>Links para arquivos:</p>
+ <ul>
+  <li><a href="documento1.pdf">Documento 1 (PDF)</a></li>   <!-- Texto vermelho e negrito -->
+  <li><a href="relatorio.docx">Relatório (DOCX)</a></li>    <!-- Não afetado -->
+  <li><a href="imagem.jpg">Imagem (JPG)</a></li>            <!-- Não afetado -->
+  <li><a href="documento2.pdf">Documento 2 (PDF)</a></li>   <!-- Texto vermelho e negrito -->
+ </ul>
+
+```
+
+[attribute*="value"] - Seleciona elementos com um atributo cujo valor contém uma string específica.
+```
+CSS
+[class*="button"] {
+    background-color: #008000; /* verde */
+}
+
+HTML
+ <button class="primary-button">Botão Primário</button> <!-- background-color: #008000; -->
+ <button class="secondary-button">Botão Secundário</button> <!-- background-color: #008000; -->
+ <div class="custom-button">Botão Customizado</div> <!-- background-color: #008000; -->
+ <span class="other-element">Elemento Diferente</span> <!-- Não afetado -->
+
+```
 <br>
 <br>
 <br>
