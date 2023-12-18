@@ -1,11 +1,16 @@
 <strong>dicas &amp; exemplos de css/sass</strong>
 
 #MENU 🏁
-- DEFINIÇÃO
-
-- [Ir para seção](#CURIOSIDADE(S))
-
-
+- [Definição](#definição)
+- [Sintaxe](#sintaxe)
+- [Seletores](#seletores)
+  - [simples](#simples)
+  - [combinador](#combinador)
+  - [pseudoclasses](#pseudoclasses)
+  - [pseudoelementos](#pseudoelementos)
+  - [atributos](#atributos)
+- [CSS Reset](#css-reset)
+- [Curiosidade(s)](#curiosidades)
 
 ## Definição CSS
 
@@ -15,7 +20,7 @@
 <br>
 <br>
 
-## SINTAXE CSS
+## Sintaxe CSS
 
 ![Sintaxe CSS](https://www.w3schools.com/css/img_selector.gif)
 
@@ -458,7 +463,7 @@ Em resumo, esse código é frequentemente usado como um "reset" ou "normalizaç�
 <br>
 <br>
 
-### CURIOSIDADE(S)
+### Curiosidade(s)
 Programar em HTML e CSS é uma expressão comumente utilizada por pessoas que estão iniciando no mundo do desenvolvimento web, mas tecnicamente não está correta. HTML (HyperText Markup Language) e CSS (Cascading Style Sheets) não são linguagens de programação, são linguagens de marcação e estilização, respectivamente.
 O termo "programar" geralmente se refere ao ato de escrever código em uma linguagem de programação, como JavaScript, Python, Java, C++, entre outras, que têm a capacidade de realizar operações lógicas e manipulação de dados. <br>
 Então, quando alguém diz que está "programando em HTML e CSS", isso pode ser impreciso. É mais apropriado dizer que estão "escrevendo HTML e CSS" para criar a estrutura e o estilo de uma página web. Se a pessoa estiver usando JavaScript para adicionar interatividade à página, aí sim ela estaria envolvida em programação.
