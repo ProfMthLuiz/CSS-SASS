@@ -1,6 +1,6 @@
 <strong>dicas &amp; exemplos de css/sass</strong>
 
-# MENU :mag:
+# MENU CSS :mag:
 - :pushpin: [Definição](#definição-css) <br>
 - :pushpin: [Sintaxe](#sintaxe-css) <br>
 - :pushpin: [Seletores](#seletores-css) <br>
@@ -486,6 +486,18 @@ Em resumo, esse código é frequentemente usado como um "reset" ou "normalizaç�
 <br>
 <br>
 <br>
+
+# MENU SASS :mag:
+- :pushpin: [Definição](#definição-css) <br>
+- :pushpin: [Sintaxe](#sintaxe-css) <br>
+- :pushpin: [Seletores](#seletores-css) <br>
+  - :pushpin: [simples](#simples) <br>
+  - :pushpin: [combinador](#combinador) <br>
+  - :pushpin: [pseudoclasse](#pseudoclasse) <br>
+  - :pushpin: [pseudoelementos](#pseudoelementos) <br>
+  - :pushpin: [atributos](#atributos) <br>
+- :pushpin: [CSS Reset](#css-reset)<br>
+- :pushpin: [Curiosidade(s)](#curiosidades)
 
 ### :bookmark: Curiosidade(s)
 Programar em HTML e CSS é uma expressão comumente utilizada por pessoas que estão iniciando no mundo do desenvolvimento web, mas tecnicamente não está correta. HTML (HyperText Markup Language) e CSS (Cascading Style Sheets) não são linguagens de programação, são linguagens de marcação e estilização, respectivamente.
