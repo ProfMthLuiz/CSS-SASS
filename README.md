@@ -1,9 +1,9 @@
 <strong>dicas &amp; exemplos de css/sass</strong>
 
 #MENU 🏁
-- [Definição](#definição)
-- [Sintaxe](#sintaxe)
-- [Seletores](#seletores)
+- [Definição](#definição-css)
+- [Sintaxe](#sintaxe-css)
+- [Seletores](#seletores-css)
   - [simples](#simples)
   - [combinador](#combinador)
   - [pseudoclasses](#pseudoclasses)
