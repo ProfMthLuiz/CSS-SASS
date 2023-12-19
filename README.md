@@ -488,7 +488,7 @@ Em resumo, esse código é frequentemente usado como um "reset" ou "normalizaç�
 <br>
 
 # MENU SASS :mag:
-- :round_pushpin: [Definição](#definição-css) <br>
+- :round_pushpin: [Definição](#anchor-definição-sass) <br>
 - :round_pushpin: [Sintaxe](#sintaxe-css) <br>
 - :round_pushpin: [Seletores](#seletores-css) <br>
   - :round_pushpin: [simples](#simples) <br>
@@ -498,6 +498,13 @@ Em resumo, esse código é frequentemente usado como um "reset" ou "normalizaç�
   - :round_pushpin: [atributos](#atributos) <br>
 - :round_pushpin: [CSS Reset](#css-reset)<br>
 - :round_pushpin: [Curiosidade(s)](#anchor-curiosidades)
+
+## :anchor: Definição SASS
+SASS é um pré-processador CSS. Isso significa que o SASS não substitui o CSS, mas sim estende sua funcionalidade, oferecendo uma sintaxe mais avançada e recursos adicionais que são posteriormente compilados em código CSS puro. Então, o SASS nos permite escrever código CSS de uma maneira mais eficiente e organizada.
+
+<br>
+<br>
+<br>
 
 ### :anchor: Curiosidade(s)
 Programar em HTML e CSS é uma expressão comumente utilizada por pessoas que estão iniciando no mundo do desenvolvimento web, mas tecnicamente não está correta. HTML (HyperText Markup Language) e CSS (Cascading Style Sheets) não são linguagens de programação, são linguagens de marcação e estilização, respectivamente.
